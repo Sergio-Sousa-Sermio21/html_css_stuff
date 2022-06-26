@@ -10,7 +10,7 @@
 <body>
     <h1>Dinamic Pictures</h1>
     <p>This images will change depending on the device we use to open the site or the size of the window.</p>
-    <picture>
+    <picture> <!--sources must be from small to big-->
         <source media="(max-width: 450px)" srcset="images/timage_small.jpg" type="image/jpeg">
         <source media="(max-width: 650px)" srcset="images/timage_medium.jpg" type="image/jpeg"> <!--I guess jpg doesn't work -->
         <img src="images/timage_big.jpg" alt="Dinamic Image">
