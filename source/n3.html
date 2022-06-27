@@ -15,5 +15,12 @@
         <source media="(max-width: 650px)" srcset="images/timage_medium.jpg" type="image/jpeg"> <!--I guess jpg doesn't work -->
         <img src="images/timage_big.jpg" alt="Dinamic Image">
     </picture>
+    <audio preload="metadata" controls> <!--it will always load the first source-->
+        <source src="media/happy-mistake.mp3" type="media/mpeg">
+        <source src="media/jojo.ogg" type="media/ogg">
+        <source src="media/jojo.wav" type="media/wav">
+        <p>Couldn't load audio.</p>
+    </audio>
+    <a href="media/happy-mistake.mp3" target="_blank" type="application/mpeg">Audio file</a>
 </body>
 </html>
