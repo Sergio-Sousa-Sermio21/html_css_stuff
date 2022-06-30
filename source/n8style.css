@@ -7,3 +7,27 @@
 body {
     background-image: linear-gradient(to left, #EB2896, #EB33F2, #A839DB, #8133F2, #4931E8);
 }
+
+main {
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px #9d2669;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #4931E8;
+    text-shadow: #4931e894;
+}
+
+h2 {
+    color: #8133F2;
+}
+
+p {
+    color: #A839DB;
+    text-align: justify;
+}
