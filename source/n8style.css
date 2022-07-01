@@ -2,6 +2,12 @@
 
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*This is used mainly if the device doesn't have a specific font to have the browser try with another and if you put the type of the font (in this example sans-serif), the device will try the first sans-serif font it has available.(same for serif, monospace, handwriting, display)*/
+    font-size: 1em;
+    /*em- has to do with the size of the uppercase of the font 
+    ex- has to do with the size of the lowercase of the font
+    */
+    font-weight: lighter;
+    /*has to do with the thickness of the font, some fonts have, others don't*/
 }
 
 body {
