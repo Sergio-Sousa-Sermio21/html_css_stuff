@@ -6,8 +6,13 @@
     /*em- has to do with the size of the uppercase of the font 
     ex- has to do with the size of the lowercase of the font
     */
-    font-weight: lighter;
+    font-weight: bold;
     /*has to do with the thickness of the font, some fonts have, others don't*/
+    font-style: italic;
+    text-decoration: overline; /*the font has to support this two settings*/
+    /*You can do them separated or combined(in this order: style > weight > size > family) it is called "shorthand"*/
+    /*font: italic bold 1em sans-serif*/
+    
 }
 
 body {
