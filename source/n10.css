@@ -14,8 +14,18 @@ h1 {
     color: rgb(3, 83, 158);
 }
 
-h1#principal {
+h1#principal { /*id: 1 use and has more priority than class*/
     text-align: center;
+}
+/*can be added together to a tag*/
+.basic { /*class: for more than 1 use */
+    color:rgb(58, 58, 233);
+    font-weight: bold;
+}
+
+.medium { /*class: for more than 1 use */
+    background-color:rgb(233, 58, 58);
+    font-weight: bold;
 }
 
 h2 {
