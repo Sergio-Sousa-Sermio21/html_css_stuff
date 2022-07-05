@@ -6,15 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>n12</title>
     <style>
-        h1 {
+        h1 { /*block-element*/
             background-color: lightblue;
             height: 100px;
+            width: 200px;
             border: 10px solid black;
             padding: 10px;
+            outline: 10px dotted blacj;
+            margin: 10px auto 30px auto;
+        }
+        a { /*inline-element*/
+            border: 1px solid red;
+            outline: 2px dotted black;
         }
     </style>
 </head>
 <body>
     <h1>Something</h1>
+    <p>Lorem ipsum dolor <a href="e">sit amet</a> consectetur, adipisicing elit. Incidunt eaque expedita fugiat dolorem corporis ea voluptatum blanditiis, itaque corrupti iste modi at debitis, praesentium reprehenderit sed aliquam consectetur commodi? Eum!</p>
 </body>
 </html>
