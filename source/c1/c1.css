@@ -80,12 +80,9 @@ div#social{
 
 .logo{
     display: inline-block;
-    padding-right: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 10px;
     width: 30px;
 }
-
 
 footer > div#content {
     font-family: Idroid, sans-serif;
