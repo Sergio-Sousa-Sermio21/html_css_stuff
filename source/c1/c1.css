@@ -8,6 +8,7 @@ body, p{
     margin: 0px;
 }
 
+/*header----------------------------------------------------------------------------------------------------*/
 header{
     /* background-color: #3FD95F; */
     border-bottom-right-radius: 15px;
@@ -53,7 +54,12 @@ section > div:hover{
     background-color: #49FCA0;
     
 }
+/*main----------------------------------------------------------------------------------------------------*/
+main {
+    border: 5px solid #2a8a3d;
+}
 
+/*footer----------------------------------------------------------------------------------------------------*/
 footer {
     background-image: linear-gradient(to bottom, #2a8a3d,black,black,black, black);
     border-top:1px solid black;
