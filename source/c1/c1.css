@@ -12,8 +12,8 @@ body, p{
 /*header----------------------------------------------------------------------------------------------------*/
 header{
     /* background-color: #3FD95F; */
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
     padding-bottom: 5px;
     background-image: linear-gradient(to bottom, #3FD95F, #2a8a3d);
 }
@@ -41,7 +41,7 @@ section > div {
 }
 
 section > div#home {
-    margin-left: 16px;
+    margin-left: 10px;
 }
 
 section > div#fc {
@@ -60,25 +60,42 @@ main {
     background-color: white;
     margin-right: 50px;
     margin-left: 50px;
+    margin-bottom: 20px;
+    width: auto;
     padding: 10px;
-    /* border: 5px solid #32A832; */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px ;
     font-family: sans-serif;
-    
+    box-shadow: 0px 0px 3px rgba(40, 82, 29, 0.616);
 }
 
 h3#first {
+    background-color: white;
     margin-top: 0px;
-    font-size: 30px;
+    font-size: 27px;
     font-family: Idroid, sans-serif;
 }
 
-section > h3 {
+section > h4 {
+    background-image: linear-gradient(to right, #87e187c3, white);
     margin-bottom: 10px;
+    font-size: 20px;
     font-family: Idroid, sans-serif;
 }
 
 section > p, main > p {
     background-color: white;
+}
+
+picture > img, picture > source{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+picture{
+    text-align: center;
 }
 
 /*footer----------------------------------------------------------------------------------------------------*/
