@@ -97,7 +97,7 @@ section > h4 {
     font-family: var(--Idroidfont);
 }
 
-section > p, main > p {
+p {
     background-color: white;
 }
 
