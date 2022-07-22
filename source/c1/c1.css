@@ -25,18 +25,19 @@ p {
 }
 
 .pexternal {
+    padding: 3px;
     color: black;
     background-color:var(--color1);
 }
 
 .pexternal:hover {
+    padding: 3px;
     background-color:var(--color2);
 }
 /*header----------------------------------------------------------------------------------------------------*/
 header{
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    padding-bottom: 5px;
     background-image: linear-gradient(to bottom, var(--color2), var(--color3));
     box-shadow: 0px 1px 5px var(--colorb1);
 }
@@ -59,27 +60,44 @@ header > h2 {
     text-shadow: 1px 1px 1px var(--boxcolor1);
 }
 
-section > div {
+section.header > div {
     display: inline;
     padding: 10px 1px 5px 10px;
     font-family: var(--Idroidfont);
 }
 
-section > div#home {
+section.header > div#home {
     margin-left: 10px;
 }
 
-section > div#fc {
+section.header > div#fc {
     padding-right: 8px;
 }
 
-section > div:hover{
+section.header > div:hover{
     display: inline;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color:var(--color4);
     
 }
+
+div.video {
+    margin: 0px -20px;
+    padding: 20px;
+    padding-bottom: 48%;
+    background-color: var(--color3);
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 94%;
+    height: 90%;
+}
+
 /*main----------------------------------------------------------------------------------------------------*/
 main {
     background-color: white;
@@ -122,6 +140,10 @@ picture > img, picture > source{
 
 picture{
     text-align: center;
+}
+
+img#holdhand {
+    max-width: 300px;
 }
 
 aside {
