@@ -102,7 +102,7 @@ div.video > iframe {
 main {
     background-color: white;
     max-width: 925px;
-    min-width: 450px;
+    min-width: 350px;
     margin:auto;
     margin-bottom: 20px;
     padding: 20px;
@@ -135,7 +135,7 @@ picture > img, picture > source{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: auto;
+    width: 100%;
 }
 
 picture{
