@@ -20,6 +20,10 @@ body{
     line-height: 1.8em;
 }
 
+body:hover {
+    color: black;
+}
+
 p {
     line-height: 1.8em;
 }
