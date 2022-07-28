@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background</title>
     <style>
+        /* background shorthand
+        color > image > position/size > repeat > attachment*/
         body {
-            background-image: url('images/n14_images/wallpaper005.jpg');
-            background-size: 1900px;
-            background-position: top center;
+            height: 100vh;
+            background: white url('images/n14_images/wallpaper005.jpg') top center/cover no-repeat fixed;
+            
+            /*background-size: cover; will cover the image if needed when changing window size*/
+            /* background-attachment: fixed; */
+        }
+        main {
+            width: 950px;
+            margin: auto;
         }
         div {
             display: inline-block;
@@ -47,17 +55,21 @@
     </style>
 </head>
 <body>
-    <div id="q1">
-    </div>
-    <div id="q2">
-    </div>
-    <div id="q3">
-    </div><br>
-    <div id="q4">
-    </div>
-    <div id="q5">
-    </div>
-    <div id="q6">
-    </div>
+    <main>
+        <div id="q1">
+        </div>
+        <div id="q2">
+        </div>
+        <div id="q3">
+        </div><br>
+        <div id="q4">
+        </div>
+        <div id="q5">
+        </div>
+        <div id="q6">
+        </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae atque blanditiis nostrum aspernatur cumque itaque adipisci accusamus obcaecati vel necessitatibus, eum dolore laborum. Perspiciatis modi officiis libero doloremque pariatur voluptatem?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi omnis error quidem facere, vero nostrum quibusdam, nulla veniam vel in corporis! Iure blanditiis incidunt corporis ratione libero ut voluptate vel. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia quis amet dignissimos deserunt maxime iusto aperiam quasi reiciendis voluptas repellat provident tenetur, ratione vero culpa. Atque, tenetur praesentium? Quos, eius! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, dolores a? Veritatis, sapiente? Ab quasi eveniet consectetur, quaerat mollitia eius atque obcaecati. Tempora ipsam ad animi blanditiis explicabo perferendis exercitationem.lore Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, quidem consectetur esse hic, assumenda, alias dolorem consequatur fugiat delectus corporis excepturi temporibus molestiae maiores omnis numquam possimus nisi tempore soluta? Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, inventore cumque dolore suscipit eligendi, magni reiciendis nesciunt voluptate laboriosam deleniti deserunt aliquam voluptatem recusandae esse. Eius nostrum necessitatibus dolores accusamus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus tempora, id maiores enim atque, nisi harum rem laudantium quia eaque natus magni quo recusandae! Officiis asperiores sit sapiente consectetur nulla?</p>
+    </main>
 </body>
 </html>
