@@ -73,7 +73,8 @@ section.image {
 }
 
 section.image > pre {
-    
+    background-color: rgba(0, 0, 0, 0.634);
+    width: 100px;
 }
 
 #site {
