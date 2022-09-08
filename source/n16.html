@@ -12,6 +12,10 @@
         }
         table {
             width: 400px;
+            border-collapse: collapse;
+        }
+        tr#first {
+            margin-left: 400px;
         }
         td {
             border: 1px solid black;
@@ -21,17 +25,26 @@
 <body>
     <h1>Tables</h1>
     <table>
+        <tr id="first">
+            <td></td>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
         <tr> <!-- row -->
+            <td>1</td>
             <td>a1</td>
             <td>b1</td>
             <td>c1</td>
         </tr>
         <tr>
+            <td>2</td>
             <td>a2</td>
             <td>b2</td>
             <td>c2</td>
         </tr>
         <tr>
+            <td>3</td>
             <td>a3</td>
             <td>b3</td>
             <td>c3</td>
