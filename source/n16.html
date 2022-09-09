@@ -10,21 +10,33 @@
             font-family: Arial, Helvetica, sans-serif;
             margin: 0px;
         }
-        table {
+        table#one {
             width: 400px;
             border-collapse: collapse;
+        }
+        table#two {
+            border-collapse: collapse;
+        }
+        thead > tr{
+            padding: 2px;
+            text-align: center;
+            background-color: gainsboro;
+        }
+        th{
+            border: 1px solid black;
         }
         tr#first {
             margin-left: 400px;
         }
         td {
             border: 1px solid black;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <h1>Tables</h1>
-    <table>
+    <table id="one">
         <tr id="first">
             <td></td>
             <td>A</td>
@@ -49,6 +61,27 @@
             <td>b3</td>
             <td>c3</td>
         </tr>
+    </table>
+    <h1>Big Tables</h1>
+    <table id="two">
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Letter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>A</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td>26</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
